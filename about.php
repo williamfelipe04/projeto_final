@@ -35,8 +35,8 @@ if ($res->num_rows > 0) :
 
     $employees .= <<<HTML
 
-        <h3>Colaboradores</h3>
-        <p>No {$site['sitename']}, contamos com uma equipe dedicada de administradores, autores e moderadores apaixonados pelo mundo das plantas. Nossos administradores garantem o bom funcionamento do blog, enquanto nossos autores especializados trazem sua experiência e conhecimento para criar conteúdo informativo e inspirador. Nossos moderadores garantem que a comunidade se mantenha positiva e construtiva, proporcionando uma experiência enriquecedora para todos os nossos leitores e participantes.</p>
+        <h3>Empresas parceiras</h3>
+        <p>No {$site['sitename']}, trabalhamos com as melhores empresas do mercado.</p>
         <div class="emprow">
 
     HTML;
@@ -84,16 +84,28 @@ require('_header.php');
 <article>
 
     <h2>Sobre o <?php echo $site['sitename'] ?></h2>
-    <p><em>Bem-vindo ao <?php echo $site['sitename'] ?>, seu destino definitivo para tudo relacionado ao mundo verde!</em></p>
-    <p>Nosso blog é dedicado a explorar o fascinante universo das plantas e árvores, desde ornamentais até variedades frutíferas e medicinais. Nosso objetivo é ser sua principal fonte de informações sobre como plantar, cuidar e colher essas maravilhas naturais. Seja você um jardineiro experiente ou iniciante, nosso propósito é fornecer insights valiosos, dicas e técnicas para ajudá-lo a cultivar um paraíso de jardim próspero. Junte-se a nós nesta jornada verde enquanto desvendamos os segredos da horticultura e revelamos a beleza e os benefícios da natureza."</p>
+    <p><em>Bem-vindo ao <?php echo $site['sitename'] ?>, assistencia tecnica de alta qualidade para o seu smartphone!</em></p>
+    <p>Fundada em 2023, com destino a entregar e oferecer serviços de assistencia de alta qualidade, aceitamos encomendas de todo o brasil com taxa 0 de entrega !!! .</p>
 
     <h3>Nossa missão</h3>
-    <p>Com o <?php echo $site['sitename'] ?>, nossa missão é inspirar uma apreciação mais profunda pelas maravilhas botânicas que nos cercam. Através de conteúdo envolvente e conselhos práticos, buscamos capacitar as pessoas a se conectarem com a natureza de maneira significativa. Se você é apaixonado por paisagismo, está em busca de aprimorar suas aventuras culinárias com produtos cultivados em casa, ou está interessado em aproveitar as propriedades curativas das plantas medicinais, nosso blog oferece uma riqueza de informações para apoiar suas buscas relacionadas às plantas.</p>
+    <p>Com o <?php echo $site['sitename'] ?>, gostamos de oferecer o melhor para os nossos clientes, com o intuitto de mostrar segurança e fidelizar os nossos serviços ao publico, sempre com bom atendimento e com as melhores marcas do mercado</p>
 
-    <h3>Participe</h3>
-    <p>Junte-se à nossa comunidade de entusiastas do verde enquanto cultivamos conhecimento, fomentamos a criatividade e semeamos as bases de um futuro mais verde e sustentável juntos.</p>
+    <div class="emprow">
 
-    <?php echo $employees ?>
+        <div class="empcol">
+            <img src="assets/img/maaça.png" alt="{$row['emp_name']}">
+        </div>
+        <div class="empcol">
+            <img src="assets/img/samsung_882849.png" alt="{$row['emp_name']}">
+        </div>
+        <div class="empcol">
+            <img src="assets/img/xiaomi_882720.png" alt="{$row['emp_name']}">
+        </div>
+        <div class="empcol">
+            <img src="assets/img/asus_882744.png" alt="{$row['emp_name']}">
+        </div>
+
+    </div>
 
 </article>
 
