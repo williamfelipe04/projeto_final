@@ -104,171 +104,53 @@ VALUES
         '1', 
         '2', 
         'https://picsum.photos/200',
-        'Figueira donde nascem figos',
-        'Conheça e saiba cuida de figueira e comer frutos deliciosos.',
+        'Nossa assistencias tecnica',
+        'Conheça o nosso trabalho profissional.',
         '
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
+            <p>.
+A assistência técnica especializada é fundamental para garantir o reparo eficiente e confiável de dispositivos eletrônicos e eletrodomésticos. Ao optar por um serviço de assistência técnica especializada, os clientes podem ter a certeza de que seus produtos serão reparados por profissionais qualificados e experientes, que possuem conhecimento específico sobre o funcionamento dos equipamentos. Além disso, esses serviços geralmente oferecem peças originais e seguem os padrões de qualidade estabelecidos pelo fabricante, garantindo assim a durabilidade e o desempenho adequado dos produtos após o reparo.</p>
+            
             <figure>
             <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
             <figcaption>Imagem aleatória.</figcaption>                    
             </figure>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-        '
+       '
     ), (
         '2', 
         '4',
         'https://picsum.photos/201',
-        'Roseiras que espetam os dedos',
-        'Como lidar com a colheita das rosas sem sangrar.',
+        'Nossos produtos',
+        '        kkkkkkkkkkkkkk.',
         '
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
+            <p>trabalhamos com produtos originais de fabrica.</p>
+            <p></p>
             <figure>
             <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
             <figcaption>Imagem aleatória.</figcaption>                    
             </figure>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-        '
+            '
     ), (
         '3', 
         '2',
         'https://picsum.photos/202',
-        'Plantinhas na varanda',
-        'Cuide bem das plantinhas da varanda neste verão.',
-        '
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-            <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
-            </figure>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-        '
+        'smartphones disponiveis em nossa loja',
+        'temos os seguintes produtos.',
+      '
+<a href="xiaome.php">
+    <img src="https://picsum.photos/300/200" alt="Imagem qualquer">
+
+</a>
+<a href="motorola.php">
+    <img src="https://picsum.photos/300/200" alt="Imagem qualquer">
+</a>
+<a href="samsung.php">
+    <img src="https://picsum.photos/300/200" alt="Imagem qualquer">
+</a>
+<a href="apple.php">
+    <img src="assets/img/iphone15.png" alt="iphone 15 pro max">
+    </a>'
     );
 
-INSERT INTO article
-(
-    art_id, 
-    art_author, 
-    art_thumbnail,
-    art_title, 
-    art_summary, 
-    art_content
-)
-VALUES
-(
-    '4', 
-    '3', 
-    'https://picsum.photos/203',
-    'Segredos do Jardim Zen',
-    'Descubra os mistérios por trás da arte do jardim zen.',
-    '
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-        <figure>
-        <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-        <figcaption>Imagem aleatória.</figcaption>                    
-        </figure>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-    '
-), (
-    '5', 
-    '4',
-    'https://picsum.photos/204',
-    'Cultivando Orquídeas em Casa',
-    'Dicas e truques para manter suas orquídeas saudáveis e florescentes.',
-    '
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-        <figure>
-        <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-        <figcaption>Imagem aleatória.</figcaption>                    
-        </figure>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-    '
-), (
-    '6', 
-    '1',
-    'https://picsum.photos/205',
-    'Criação de Cactos no Deserto',
-    'Um guia para cultivar cactos em condições extremas de desertos.',
-    '
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-        <figure>
-        <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-        <figcaption>Imagem aleatória.</figcaption>                    
-        </figure>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-    '
-);
-
-INSERT INTO article
-    (
-        art_id, 
-        art_author, 
-        art_thumbnail,
-        art_title, 
-        art_summary, 
-        art_content
-    )
-VALUES
-    (
-        '7', 
-        '3', 
-        'https://picsum.photos/206',
-        'O Segredo das Suculentas',
-        'Descubra como cuidar das suculentas de forma fácil e eficaz.',
-        '
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-            <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
-            </figure>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-        '
-    ), (
-        '8', 
-        '4',
-        'https://picsum.photos/207',
-        'Jardim Vertical em Pequenos Espaços',
-        'Saiba como criar um jardim vertical mesmo em ambientes compactos.',
-        '
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-            <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
-            </figure>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-        '
-    ), (
-        '9', 
-        '1',
-        'https://picsum.photos/208',
-        'Hortas Urbanas Sustentáveis',
-        'Aprenda a cultivar uma horta urbana sustentável em sua própria casa.',
-        '
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ab, excepturi, ullam veniam perspiciatis officiis nostrum libero rerum ipsum minima tempore quisquam accusamus officia magni ea accusantium cumque reiciendis molestias.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat obcaecati harum doloribus perferendis mollitia autem, sapiente fuga itaque officiis molestias libero ea, delectus vero error? Amet deserunt eum vero.</p>
-            <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
-            </figure>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nulla cum voluptate sed debitis minima consequuntur sint earum iste nam corporis aperiam dolorum temporibus itaque, corrupti velit architecto? Modi, quam!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quia distinctio iusto exercitationem qui accusantium ex ullam, excepturi illo quisquam beatae, nisi ad earum reprehenderit, maiores asperiores fuga nulla accusamus.</p>
-        '
-    );
 
 -- Popular tabela 'comment'.
 INSERT INTO comment 
@@ -328,7 +210,16 @@ INSERT INTO comment
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
+    'comprei um telefone com a loja e simplesmente chegou rapido e bem lacrado. nota milllll.'
 );
 
 -- Popular tabela 'contact'.
+
+
+
+
+
+
+
+
+-- copia e cola no banco de dados do sql para executar o site no google

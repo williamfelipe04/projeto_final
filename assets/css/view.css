@@ -43,7 +43,7 @@
   display: flex;
   align-items: center;
   padding: .5rem;
-  border-bottom: 3px double grey;
+  border-bottom: 3px double rgb(15, 15, 15);
 }
 
 .cmt_header img {
@@ -98,7 +98,7 @@
 
 #commentForm button {
   background-color: #ddd;
-  color: #6e6e6e;
+  color: #bd1b1b;
   cursor: not-allowed;
   pointer-events: none;
 }
