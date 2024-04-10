@@ -29,8 +29,8 @@ mb_regex_encoding('UTF8');
 $site = [
     "sitename" => "Primetech",              // Usado na tag <title>
     "title" => "Primetech",                 // Usado na tag <header>
-    "slogan" => "speed prime, onde a entrega é speed",       // Usado na tag <header>
-    "logo" => "logos.png",                 // Usado na tag <header>
+    "slogan" => "primetech, onde a entrega é speed",       // Usado na tag <header>
+    "logo" => "logo02.png",                 // Usado na tag <header>
 
     // Dados de conexão com o MySQL:
     "mysql_hostname" => "localhost",        // Servidor do banco de dados MySQL

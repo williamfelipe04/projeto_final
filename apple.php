@@ -14,9 +14,16 @@ $page = array(
 require('_header.php');
 ?>
 
-<article>telefone apple seminovos e lacrados<br>(verificar disponibilidade<br>) </article>
+<article>iphone 15 pro max, de 10,999.00 por 9,999.00<br>(verificar disponibilidade)<br> </article>
+<br><div class="card" onclick="location.href = 'apple.php'">
+        <br><img src="assets/img/iphone15.1.png" alt="iphone15 pro max lacrado">
+        <div class="descrição">iphone de 128gb lacrado e com pronta entrega, somente na cor cinza</div>
+        <div class="preço">R$9,999,00</div>
+        <button>Comprar</button><br>
+    </div><br>
 
-<aside></aside>
+<aside>
+</aside>
 
 <?php
 // Inclui o rodapé do documento
