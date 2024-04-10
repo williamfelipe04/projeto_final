@@ -14,14 +14,15 @@ $page = array(
 require('_header.php');
 ?>
 
-<article></article>
-
-<aside><div class="card" onclick="location.href = 'samsung.php'">
-        <img src="" alt="">
-        <div class="descricao">kdfsjogushaoiçgasdoipgjpdsjg psd</div>
-        <div class="preco">R$40,00</div>
-        <button>Comprar</button>
+<article>samsung s24ultra pronta entrega 1 tb de memoria<div class="card" onclick="location.href = 'samsung.php'">
+        <br><img src="assets/img/samsung.png" alt="samsung s24 ultra lacrado">
+        <div class="descricao">samsung s24ultra, lançamento na loja,<br> somente 10 unidades, corra e garanta o seu<br>
     </div>
+        <div class="preco">R$6.999,00</div>
+        <button>Comprar</button><br>
+    </div></article>
+
+<aside>
 </aside>
 
 <?php

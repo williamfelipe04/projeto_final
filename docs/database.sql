@@ -119,35 +119,52 @@ A assistência técnica especializada é fundamental para garantir o reparo efic
         '2', 
         '4',
         'https://picsum.photos/201',
-        'Nossos produtos',
-        '        kkkkkkkkkkkkkk.',
+        'smartphones seminovos ',
+        'segunda linha e vitrine .',
         '
-            <p>trabalhamos com produtos originais de fabrica.</p>
+            <p>produtos reformados e com garantia da loja de 6 meses.</p>
             <p></p>
             <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
+            <img src="assets/img/iphone12.jpg" alt="Imagem qualquer">    
             <figcaption>Imagem aleatória.</figcaption>                    
             </figure>
             '
+        '     <figure>
+            <img src="assets/img/samsungs20.webp" alt="Imagem qualquer">    
+            <figcaption>Imagem aleatória.</figcaption>                    
+            </figure>
+                '
+        '     <figure>
+            <img src="assets/img/xiaome13pro.webp" alt="Imagem qualquer">    
+            <figcaption>Imagem aleatória.</figcaption>                    
+            </figure>
+            '
+                
+        '     <figure>
+            <img src="assets/img/iphone11pro.webp" alt="Imagem qualquer">    
+            <figcaption>Imagem aleatória.</figcaption>                    
+            </figure>
+            '
+            
     ), (
         '3', 
         '2',
         'https://picsum.photos/202',
         'smartphones disponiveis em nossa loja',
-        'temos os seguintes produtos.',
+        'temos os seguintes produtos (lacrados)',
       '
 <a href="xiaome.php">
-    <img src="https://picsum.photos/300/200" alt="Imagem qualquer">
+    <img src="assets/img/xiaome14pro.webp" alt="Imagem qualquer">
 
 </a>
 <a href="motorola.php">
-    <img src="https://picsum.photos/300/200" alt="Imagem qualquer">
+    <img src="assets/img/motorolag24power.png" alt="Imagem qualquer">
 </a>
 <a href="samsung.php">
-    <img src="https://picsum.photos/300/200" alt="Imagem qualquer">
+    <img src="assets/img/samsung.png" alt="Imagem qualquer">
 </a>
 <a href="apple.php">
-    <img src="assets/img/iphone15.png" alt="iphone 15 pro max">
+    <img src="assets/img/iphone15.1.png" alt="iphone 15 pro max">
     </a>'
     );
 

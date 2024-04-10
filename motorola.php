@@ -14,14 +14,15 @@ $page = array(
 require('_header.php');
 ?>
 
-<article></article>
-
-<aside><div class="card" onclick="location.href = 'motorola.php'">
-        <img src="" alt="">
-        <div class="descricao">kdfsjogushaoiçgasdoipgjpdsjg psd</div>
-        <div class="preco">R$40,00</div>
+<article>motorola moto g24 power de 899,90 por 799,90 avista <br> (100 unidades no estoque para pronts entrega)<br> 
+<br><div class="card" onclick="location.href = 'motorola.php'">
+        <img src="assets/img/motorolag24power.png" alt=" motorola g24 power" style="width:100%">
+        <div class="descrição">motorola g24 power, 48h de bateria, produto lacrado </div>
+        <div class="preço">R$799,90</div>
         <button>Comprar</button>
-    </div>
+    </div></article><br>
+
+<aside>
 </aside>
 
 <?php

@@ -30,7 +30,7 @@ body {
 
 /* Fundo da página */
 body {
-    background-color: rgba(255, 166, 0, 0.6);
+    background-color: rgba(255, 0, 0, 0.6);
     background-image: url('../img/back01.png');
     background-attachment: fixed;
     background-position: center;
@@ -175,7 +175,7 @@ main aside {
 }
 
 main article {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(252, 251, 251, 0.9);
     flex-grow: 1;
 }
 
