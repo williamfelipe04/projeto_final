@@ -30,7 +30,7 @@ body {
 
 /* Fundo da página */
 body {
-    background-color: rgba(255, 166, 0, 0.6);
+    background-color: rgba(103, 104, 114, 0.6);
     background-image: url('../img/back01.png');
     background-attachment: fixed;
     background-position: center;
@@ -67,7 +67,7 @@ a:hover {
 
 /* Cabeçalho (header) */
 header {
-    background-color: #000000;
+    background-color: #22212a;
     display: flex;
     flex-direction: column;
 }
@@ -84,7 +84,7 @@ header img {
 }
 
 .header-title {
-    color: #ffffff;
+    color: #c3fb0b;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ header img {
 /* Formulário de pesquisa no cabeçalho */
 
 .header-search {
-    background-color: orange;
+    background-color: #22212a;
     padding: 1rem;
 }
 
@@ -113,7 +113,7 @@ header img {
 .header-search form button {
     padding: .5rem;
     border: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .header-search form input {
@@ -128,7 +128,7 @@ header img {
 
 /* Menu principal (nav) */
 nav {
-    background-color: orange;
+    background-color: #22212a;
     border-top: 1px dotted #000;
     border-bottom: 1px dotted #000;
     display: flex;
@@ -139,7 +139,7 @@ nav {
 nav a {
     padding: 1rem .5rem;
     text-align: center;
-    color: black;
+    color: #c3fb0b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,18 +175,18 @@ main aside {
 }
 
 main article {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(71, 153, 220, 0.9);
     flex-grow: 1;
 }
 
 main aside {
-    background-color: rgba(226, 226, 226, 0.9);
+    background-color: rgba(135, 184, 225, 0.9);
     min-height: 5rem;
 }
 
 /* Rodapé (footer) */
 footer {
-    background-color: #000;
+    background-color: #140f28;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -336,7 +336,7 @@ Telas de 425px ou mais...
 */
 
 .aside_block div {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: .5rem;
     border-radius: .35rem;
     margin-bottom: 1rem;
@@ -347,7 +347,7 @@ Telas de 425px ou mais...
 }
 
 .clicked:hover {
-    background-color: #eee;
+    background-color: #00fcdb;
 }
 
 .aside_block h5 {
