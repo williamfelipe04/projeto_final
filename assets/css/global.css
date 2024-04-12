@@ -84,7 +84,7 @@ header img {
 }
 
 .header-title {
-    color: #c3fb0b;
+    color: #f8e803;
     text-align: center;
 }
 
@@ -139,7 +139,7 @@ nav {
 nav a {
     padding: 1rem .5rem;
     text-align: center;
-    color: #c3fb0b;
+    color: #f8e803;
     display: flex;
     flex-direction: column;
     align-items: center;

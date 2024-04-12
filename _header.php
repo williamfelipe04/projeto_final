@@ -71,13 +71,13 @@ if (isset($page['js']))
 
             <?php // Formulário de Buscas 
             ?>
-            <div class="header-search">
+           <!-- <div class="header-search">
                 <form action="search.php" method="get" onclick="return searchCheck()">
                     <input type="search" name="q" id="headerSearch" placeholder="Procurar..." value="<?php echo isset($query)? $query : '' ?>">
                     <button type="submit"><i class="fa-solid fa-magnifying-glass fa-fw fa-flip-horizontal"></i></button>
                 </form>
             </div>
-
+-->
         </header>
 
         <?php // Menu Principal 
@@ -91,12 +91,12 @@ if (isset($page['js']))
 
             <a href="contacts.php" title="Faça Contato">
                 <i class="fa-solid fa-comment fa-fw"></i>
-                <span>Contatos</span>
+                <span>Registre-se</span>
             </a>
 
-            <a href="about.php" title="Sobre agente">
+            <a href="about.php" title="Sobre a gente">
                 <i class="fa-solid fa-circle-info fa-fw"></i>
-                <span>Sobre</span>
+                <span>Nossa loja</span>
             </a>
 
             <?php // Botão de interação do perfil do usuário, modificado pelo JavaScript 

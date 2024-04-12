@@ -84,10 +84,8 @@ CREATE TABLE contact (
 INSERT INTO employee (
     emp_id, emp_photo, emp_name, emp_birth, emp_email, emp_password, emp_type
 ) VALUES 
-('1', 'https://randomuser.me/api/portraits/lego/5.jpg', 'Joca da Silva', '2000-01-29', 'joca@silva.com', SHA1('senha123'), 'admin'),
-('2', 'https://randomuser.me/api/portraits/women/33.jpg', 'Marineuza Siriliano', '1984-09-20', 'mari@neuza.com', SHA1('senha123'), 'author'),
-('3', 'https://randomuser.me/api/portraits/men/40.jpg', 'Setembrino Trocatapas', '1999-10-21', 'set@brino.com', SHA1('senha123'), 'moderator'),
-('4', 'https://randomuser.me/api/portraits/men/41.jpg', 'Hermenildo Sirigildo', '2001-12-24', 'herme@gildo.com', SHA1('senha123'), 'author');
+('1', 'https://randomuser.me/api/portraits/lego/5.jpg', 'Bruno Cardoso', '2000-01-29', 'joca@silva.com', SHA1('senha123'), 'admin'),
+('2', 'https://randomuser.me/api/portraits/women/33.jpg', 'William Felipe', '1984-09-20', 'mari@neuza.com', SHA1('senha123'), 'author');
 
 -- Popular tabela 'article'.
 INSERT INTO article
@@ -100,25 +98,25 @@ INSERT INTO article
         art_content
     )
 VALUES
+
     (
         '1', 
         '2', 
-        'https://picsum.photos/200',
+        'assets/img/logos.png',
         'Nossa assistencias tecnica',
         'Conheça o nosso trabalho profissional.',
         '
-            <p>.
-A assistência técnica especializada é fundamental para garantir o reparo eficiente e confiável de dispositivos eletrônicos e eletrodomésticos. Ao optar por um serviço de assistência técnica especializada, os clientes podem ter a certeza de que seus produtos serão reparados por profissionais qualificados e experientes, que possuem conhecimento específico sobre o funcionamento dos equipamentos. Além disso, esses serviços geralmente oferecem peças originais e seguem os padrões de qualidade estabelecidos pelo fabricante, garantindo assim a durabilidade e o desempenho adequado dos produtos após o reparo.</p>
+            <p> Assistência técnica especializada é fundamental para garantir o reparo eficiente de dispositivos eletrônicos e eletrodomésticos. Ao optar por um serviço de assistência técnica especializada, os clientes podem ter a certeza de que seus produtos serão reparados por profissionais qualificados e experientes, que possuem conhecimento específico sobre o funcionamento dos equipamentos. Além disso, esses serviços geralmente oferecem peças originais e seguem os padrões de qualidade estabelecidos pelo fabricante, garantindo assim a durabilidade e o desempenho adequado dos produtos após o reparo.</p>
             
             <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <img src="assets/img/logos.png" alt="Imagem qualquer">    
+            <figcaption></figcaption>                    
             </figure>
        '
     ), (
         '2', 
-        '4',
-        'https://picsum.photos/201',
+        '1',
+        'assets/img/iphone.png',
         'smartphones seminovos ',
         'segunda linha e vitrine .',
         '
@@ -149,7 +147,7 @@ A assistência técnica especializada é fundamental para garantir o reparo efic
     ), (
         '3', 
         '2',
-        'https://picsum.photos/202',
+        'assets/img/lacrado.png',
         'smartphones disponiveis em nossa loja',
         'temos os seguintes produtos (lacrados)',
       '
@@ -165,8 +163,11 @@ A assistência técnica especializada é fundamental para garantir o reparo efic
 </a>
 <a href="apple.php">
     <img src="assets/img/iphone15.1.png" alt="iphone 15 pro max">
-    </a>'
+    </a>
+   '
+   
     );
+    
 
 
 -- Popular tabela 'comment'.
@@ -185,49 +186,42 @@ INSERT INTO comment
     'Mariah do Bairro', 
     'https://randomuser.me/api/portraits/women/40.jpg',
     'mariahbairro@gmail.com',
-    'Não gosto de Figos. Eles tem caroços.'
+    'troquei meu diplay com a preimetech, depois de 6 meses ainda continua funcionando, loja 1005 confiavel.'
 ), (
     '2', 
     'def456',
     'Esmeraldino', 
     'https://randomuser.me/api/portraits/lego/7.jpg',
     'esmeraldo@dino.com',
-    'Prefiro os cravos às rosas. Pelo menos eles não tem espinhos.'
+    'otima assistencia tecnica super recomendo.'
 ), (
     '1', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
+    'Flamengo campeão da libertadores de 2024.'
 ), (
     '1', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
+    'comprei um iphone com a loja, me deram desconto no dinheiro e ainda ganhei um carregador, recomendo demaissss.'
 ), (
     '2', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
+    'entrega rapida.'
 ), (
     '1', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
-), (
-    '3', 
-    'ghi890',
-    'Pedro Pedroso', 
-    'https://randomuser.me/api/portraits/men/87.jpg',
-    'pedro@pedroso.com',
-    'comprei um telefone com a loja e simplesmente chegou rapido e bem lacrado. nota milllll.'
+    'feliz demais.'
 );
 
 -- Popular tabela 'contact'.

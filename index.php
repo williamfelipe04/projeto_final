@@ -70,6 +70,7 @@ require('_header.php');
 
 <article>
     <?php echo $articles ?>
+    <button onclick="location.href='contacts.php'">compramos seu telefone</button>
 </article>
 
 <aside>
@@ -77,8 +78,7 @@ require('_header.php');
     // Mostra os artigos mais visualizados
     require('widgets/_mostviewed.php');
     
-    // Atividade 1) Mostra os artigos mais comentados
-    require('widgets/_mostcommented.php');
+   
     ?>
 </aside> 
 

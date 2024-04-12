@@ -30,7 +30,7 @@ $site = [
     "sitename" => "Primetech",              // Usado na tag <title>
     "title" => "Primetech",                 // Usado na tag <header>
     "slogan" => "primetech, onde a entrega é speed",       // Usado na tag <header>
-    "logo" => "logo02.png",                 // Usado na tag <header>
+    "logo" => "logos.png",                 // Usado na tag <header>
 
     // Dados de conexão com o MySQL:
     "mysql_hostname" => "localhost",        // Servidor do banco de dados MySQL
@@ -49,32 +49,32 @@ $site = [
     "social_list" => [
         [
             "name" => "GitHub.com",
-            "link" => "https://github.com/Luferat",
+            "link" => "https://github.com/williamfelipe04/projeto_final/pulls",
             "icon" => "fa-brands fa-square-github fa-fw",
             "color" => "#333"
         ], [
             "name" => "X / Twitter",
-            "link" => "https://twitter.com/Luferat",
+            "link" => "https://www.rj.senac.br/unidades/senac-campo-grande",
             "icon" => "fa-brands fa-square-x-twitter fa-fw",
             "color" => "#14171a"
         ], [
             "name" => "Youtube",
-            "link" => "https://www.youtube.com/channel/UCkN6I-gfJlL5lUj9shkyxPQ",
+            "link" => "https://www.rj.senac.br/unidades/senac-campo-grande",
             "icon" => "fa-brands fa-square-youtube fa-fw",
             "color" => "#ff0000"
         ], [
             "name" => "Facebook",
-            "link" => "https://facebook.com/Luferat",
+            "link" => "https://pt-br.facebook.com/help",
             "icon" => "fa-brands fa-square-facebook fa-fw",
             "color" => "#1877f2"
         ], [
             "name" => "Instagram",
-            "link" => "https://instagram.com/Luferat",
+            "link" => "https://www.rj.senac.br/unidades/senac-campo-grande",
             "icon" => "fa-brands fa-square-instagram fa-fw",
             "color" => "#405de6"
         ], [
             "name" => "LinkedIn",
-            "link" => "https://www.linkedin.com/in/luferat/",
+            "link" => "https://www.rj.senac.br/unidades/senac-campo-grande",
             "icon" => "fa-brands fa-linkedin fa-fw",
             "color" => "#0a66c2"
         ]

@@ -135,7 +135,7 @@ require('_header.php');
 
 <article>
 
-    <h2>Faça Contato</h2>
+    <h2>Registre-se</h2>
 
     <?php
     // Se ocorreram erros, exibe a caixa de mensagem

@@ -207,10 +207,7 @@ require('_header.php');
 </article>
 
 <aside>
-    <?php
-    echo $aside_author; // Dados do autor
-    echo $aside_articles; // Artigos do autor
-    ?>
+  
 </aside>
 
 <?php
