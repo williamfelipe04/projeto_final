@@ -125,23 +125,27 @@ A assistência técnica especializada é fundamental para garantir o reparo efic
             <p>produtos reformados e com garantia da loja de 6 meses.</p>
             <p></p>
             <figure>
-            <img src="assets/img/iphone12.jpg" alt="Imagem qualquer">    
+
+            <a href="iphone12.php">
+            <img src="assets/img/iphone12.jpg" alt="IPHONE 12">    
+            <figcaption> iphone12.</figcaption> 
+                               
+            </figure>   
+            </a>
+            
+             <figure>
+            <img src="assets/img/samsungs20.webp" alt="SAMSUNG S20">    
             <figcaption>Imagem aleatória.</figcaption>                    
             </figure>
-            '
-        '     <figure>
-            <img src="assets/img/samsungs20.webp" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
-            </figure>
-                '
-        '     <figure>
-            <img src="assets/img/xiaome13pro.webp" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
-            </figure>
-            '
                 
-        '     <figure>
-            <img src="assets/img/iphone11pro.webp" alt="Imagem qualquer">    
+             <figure>
+            <img src="assets/img/xiaome13pro.webp" alt="XIAOME 13 PRO">    
+            <figcaption>Imagem aleatória.</figcaption>                    
+            </figure>
+            
+                
+             <figure>
+            <img src="assets/img/iphone11pro.webp" alt="IPHONE 11 PRO">    
             <figcaption>Imagem aleatória.</figcaption>                    
             </figure>
             '
