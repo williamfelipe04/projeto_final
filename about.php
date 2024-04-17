@@ -93,10 +93,10 @@ require('_header.php');
     <div class="emprow">
 
         <div class="empcol">
-            <img src="assets/img/maaça.png" alt="{$row['emp_name']}">
+            <img src="assets/img/maça.png" alt="{$row['emp_name']}">
         </div>
         <div class="empcol">
-            <img src="assets/img/samsung_882849.png" alt="{$row['emp_name']}">
+            <img src="assets/img/samsunglogo.png" alt="{$row['emp_name']}">
         </div>
         <div class="empcol">
             <img src="assets/img/xiaomi_882720.png" alt="{$row['emp_name']}">

@@ -84,10 +84,10 @@ CREATE TABLE contact (
 INSERT INTO employee (
     emp_id, emp_photo, emp_name, emp_birth, emp_email, emp_password, emp_type
 ) VALUES 
-('1', 'https://randomuser.me/api/portraits/lego/5.jpg', 'Joca da Silva', '2000-01-29', 'joca@silva.com', SHA1('senha123'), 'admin'),
-('2', 'https://randomuser.me/api/portraits/women/33.jpg', 'Marineuza Siriliano', '1984-09-20', 'mari@neuza.com', SHA1('senha123'), 'author'),
-('3', 'https://randomuser.me/api/portraits/men/40.jpg', 'Setembrino Trocatapas', '1999-10-21', 'set@brino.com', SHA1('senha123'), 'moderator'),
-('4', 'https://randomuser.me/api/portraits/men/41.jpg', 'Hermenildo Sirigildo', '2001-12-24', 'herme@gildo.com', SHA1('senha123'), 'author');
+('1', 'assets/img/ciclope.png', 'Bruno silva', '2000-01-01', 'willi@m.com', SHA1('senha123'), 'admin'),
+('2', 'assets/img/yondu.png', 'William felipe', '2000-01-01', 'brunosilv@.com', SHA1('senha123'), 'admin'),
+('3', 'assets/img/ciclope.png', 'Bruno silva', '2000-01-01', 'willi@m.com', SHA1('senha123'), 'admin'),
+('4', 'assets/img/yondu.png', 'William felipe', '2000-01-01', 'brunosilv@.com', SHA1('senha123'), 'admin');
 
 -- Popular tabela 'article'.
 INSERT INTO article
@@ -103,7 +103,7 @@ VALUES
     (
         '1', 
         '2', 
-        'https://picsum.photos/200',
+        'assets/img/logo02.png',
         'Nossa assistencias tecnica',
         'Conheça o nosso trabalho profissional.',
         '
@@ -111,14 +111,14 @@ VALUES
 A assistência técnica especializada é fundamental para garantir o reparo eficiente e confiável de dispositivos eletrônicos e eletrodomésticos. Ao optar por um serviço de assistência técnica especializada, os clientes podem ter a certeza de que seus produtos serão reparados por profissionais qualificados e experientes, que possuem conhecimento específico sobre o funcionamento dos equipamentos. Além disso, esses serviços geralmente oferecem peças originais e seguem os padrões de qualidade estabelecidos pelo fabricante, garantindo assim a durabilidade e o desempenho adequado dos produtos após o reparo.</p>
             
             <figure>
-            <img src="https://picsum.photos/300/200" alt="Imagem qualquer">    
+            <img src="assets/img/logo02.png" alt="Imagem qualquer">    
             <figcaption>Imagem aleatória.</figcaption>                    
             </figure>
        '
     ), (
         '2', 
         '4',
-        'https://picsum.photos/201',
+        'assets/img/iphone11pro.webp',
         'smartphones seminovos ',
         'segunda linha e vitrine .',
         '
@@ -128,32 +128,35 @@ A assistência técnica especializada é fundamental para garantir o reparo efic
 
             <a href="iphone12.php">
             <img src="assets/img/iphone12.jpg" alt="IPHONE 12">    
-            <figcaption> iphone12.</figcaption> 
+            <figcaption> IPHONE 12 PRO.</figcaption> 
                                
             </figure>   
             </a>
             
              <figure>
+             <a href="samsungs20.php">
             <img src="assets/img/samsungs20.webp" alt="SAMSUNG S20">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <figcaption>SAMSUNG S20.</figcaption>                    
             </figure>
                 
              <figure>
+            <a href="xiaome13.php">
             <img src="assets/img/xiaome13pro.webp" alt="XIAOME 13 PRO">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <figcaption> XIAOME 13.</figcaption>                    
             </figure>
             
                 
              <figure>
+             <a href="iphone11.php">
             <img src="assets/img/iphone11pro.webp" alt="IPHONE 11 PRO">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <figcaption>IPHONE 11 PRO.</figcaption>                    
             </figure>
             '
             
     ), (
         '3', 
         '2',
-        'https://picsum.photos/202',
+        'assets/img/lacrado.png',
         'smartphones disponiveis em nossa loja',
         'temos os seguintes produtos (lacrados)',
       '
@@ -189,43 +192,39 @@ INSERT INTO comment
     'Mariah do Bairro', 
     'https://randomuser.me/api/portraits/women/40.jpg',
     'mariahbairro@gmail.com',
-    'Não gosto de Figos. Eles tem caroços.'
+    'loja 100% confiavel, pedi pra fazer uma trca de display ano passado e ate hj ainda funcionado.'
 ), (
     '2', 
     'def456',
     'Esmeraldino', 
     'https://randomuser.me/api/portraits/lego/7.jpg',
     'esmeraldo@dino.com',
-    'Prefiro os cravos às rosas. Pelo menos eles não tem espinhos.'
+    'Aceita negociação nos seminovos?'
 ), (
     '1', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
-), (
-    '1', 
-    'ghi890',
-    'Pedro Pedroso', 
-    'https://randomuser.me/api/portraits/men/87.jpg',
-    'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
-), (
+    'Quanto custa a troca de bateria ?'
+), 
+(
     '2', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
-), (
+    'Vcs parcelam ate de quantas vezes ?'
+), 
+(
     '1', 
     'ghi890',
     'Pedro Pedroso', 
     'https://randomuser.me/api/portraits/men/87.jpg',
     'pedro@pedroso.com',
-    'Fogos são gostosos somente no Natal.'
-), (
+    'quanto tempo leva pra entregar no interior de sao paulo'
+),
+ (
     '3', 
     'ghi890',
     'Pedro Pedroso', 

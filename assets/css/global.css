@@ -31,7 +31,7 @@ body {
 /* Fundo da página */
 body {
     background-color: rgba(103, 104, 114, 0.6);
-    background-image: url('../img/back01.png');
+    /* background-image: url('../img/back01.png'); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;

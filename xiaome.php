@@ -15,7 +15,7 @@ require('_header.php');
 ?>
 
 <article><div class="card" onclick="location.href = 'xiaome.php'">
-        <img src="assets/img/xiaome14pro.webp" alt="xiaome 14 pro, 1 tbde memoria e 48h de bateria">
+        <img src="assets/img/xiaome14pro.webp" alt="xiaome 14 pro, 1 tb de memoria e 48h de bateria">
         <div class="descricao">ultima unidade da loja, produto lacrado !!!</div>
         <div class="preco">R$8.900,00</div>
         <button>Comprar</button>
