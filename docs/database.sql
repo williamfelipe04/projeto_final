@@ -123,24 +123,24 @@ VALUES
             <p>produtos reformados e com garantia da loja de 6 meses.</p>
             <p></p>
             <figure>
-            <img src="assets/img/iphone12.jpg" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <img src="assets/img/iphone12.jpg" class="w3-circle" alt="">    
+            <figcaption>iphone 12.</figcaption>                    
             </figure>
             '
         '     <figure>
-            <img src="assets/img/samsungs20.webp" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <img src="assets/img/samsungs20.webp" alt="">    
+            <figcaption>samsung s20.</figcaption>                    
             </figure>
                 '
         '     <figure>
-            <img src="assets/img/xiaome13pro.webp" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <img src="assets/img/xiaome13pro.webp" alt="">    
+            <figcaption>xiaome 13pro.</figcaption>                    
             </figure>
             '
                 
         '     <figure>
             <img src="assets/img/iphone11pro.webp" alt="Imagem qualquer">    
-            <figcaption>Imagem aleatória.</figcaption>                    
+            <figcaption>iphone 11pro.</figcaption>                    
             </figure>
             '
             
@@ -186,14 +186,14 @@ INSERT INTO comment
     'Mariah do Bairro', 
     'https://randomuser.me/api/portraits/women/40.jpg',
     'mariahbairro@gmail.com',
-    'troquei meu diplay com a preimetech, depois de 6 meses ainda continua funcionando, loja 1005 confiavel.'
+    'troquei meu diplay com a premetech, depois de 6 meses ainda continua funcionando, loja 1005 confiavel.'
 ), (
     '2', 
     'def456',
     'Esmeraldino', 
     'https://randomuser.me/api/portraits/lego/7.jpg',
     'esmeraldo@dino.com',
-    'otima assistencia tecnica super recomendo.'
+    'otima assistencia tecnica, super recomendo.'
 ), (
     '1', 
     'ghi890',

@@ -72,7 +72,7 @@
 }
 
 #contact:valid button {
-  background-color: steelblue;
+  background-color: rgb(173, 218, 82);
   color: white;
   cursor: pointer;
   pointer-events: all;
